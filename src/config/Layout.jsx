@@ -5,7 +5,6 @@ export default function Layout() {
   return (
     <>
       <header>
-        <h1>React Starter</h1>
         <nav>
           <ul>
             <li>Item 1</li>
