@@ -34,3 +34,8 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+/* Overwrite inbuilt style to fix menu */
+.p-menubar {
+  justify-content: space-between;
+}
