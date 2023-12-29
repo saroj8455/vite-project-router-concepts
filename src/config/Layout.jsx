@@ -1,23 +1,15 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 export default function Layout() {
   return (
     <>
-      <header>
-        <nav>
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        {/* 2️⃣ Render the app routes via the Layout Outlet */}
+      <div className='min-h-screen'>
+        <Navbar />
+
         <Outlet />
-      </main>
-      <footer>Footer Content ©️ me 2023</footer>
+      </div>
     </>
   );
 }
