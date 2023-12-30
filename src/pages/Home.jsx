@@ -1,14 +1,24 @@
 import React from 'react';
 import * as Prime from '../config/Prime';
+import Profile from '../components/Profile';
 
 export default function Home() {
   return (
     <div>
       <h1 className='text-center'>Welcome to Home Page </h1>
+
+      <div className='grid'>
+        <div className='col-12 md:col-12 '>
+          <Profile />
+        </div>
+      </div>
+
       <div className='grid'>
         <div className='col-12 md:col-6 lg:col-6'>
           <div className='p-3  font-bold'>
             <Prime.Card title='Technology'>
+              <h1 className='text-2xl pb-2'>Summery</h1>
+              <Prime.Divider />
               <p className='m-0'>html,html5,css,css3,javascript</p>
               <p className='m-0'>Angular upto 16</p>
               <p className='m-0'>React js</p>
