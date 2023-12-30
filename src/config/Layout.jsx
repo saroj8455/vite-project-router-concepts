@@ -19,6 +19,12 @@ export default function Layout() {
                 />
               </Link>
             </div>
+            <div className='card flex align-items-center justify-content-center  w-full py-2'>
+              <Prime.InputText
+                className='w-6'
+                placeholder='Enter product,item name'
+              />
+            </div>
             <nav>
               <ul className='flex py-1'>
                 <li>
